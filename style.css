@@ -1,3 +1,40 @@
-p{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.container nav{
+    padding: 35px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    font-size: 30px;
+    font-style: italic;
+    padding: 25px 0px;
+}
+
+.infoContainer{
+    background-color: antiquewhite;
+    height: 80vh;
+    width: 71vw;
+    margin: 77px auto;
 }
